@@ -1,0 +1,41 @@
+  /*Les styles pour la liste*/
+  dl {
+    background-color: rgb(233, 203, 229);
+}
+dt {
+    font-weight: bold;
+}
+dd {
+    font-style: italic;
+}  
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    border-collapse: collapse;
+}    
+td, th {
+    border: 1px solid #cf0c0c;
+    text-align: left;
+    padding: 8px;
+} 
+tr:nth-child(even) {
+    /*even - pair, odd impair*/
+    background-color: rgb(235, 174, 174);
+}
+caption {
+    border: 1px solid brown;
+    padding: 16px;
+    background-color: rgb(182, 42, 70);
+    color: white;
+}
+.courriel {
+    text-align: center;
+    background-color: tomato;
+    color: white;
+
+}
+.telephone {
+    text-align: center;
+    background-color: tomato;
+    color: white;
+}

@@ -1,0 +1,22 @@
+body {
+    background-color: pink;
+}
+.jaune {
+    background-color: yellow;
+}
+.bleu {
+    background-color: lightskyblue;
+}
+.blanc {
+    background-color: white;
+}
+.noir {
+    background-color: black;
+}
+.gris {
+    background-color: grey;
+}
+td {
+    width: 4em;
+    height: 4em;
+}

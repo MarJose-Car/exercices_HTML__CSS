@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>TABLEAU HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/tableau.css">
+    </head>
+    <body>
+        <h1>Des tableaux et une liste de définition</h1>
+        <h2>Liste de termes et leur définition</h2>
+        <dl>
+            <dt>Vacances</dt>
+            <dd>Période de congés des personnes en activité.</dd>
+            <dt>Travail</dt>
+            <dd>Activité humaine organisée et utile. Ensemble de ces activités</dd>
+        </dl>
+        <hr>
+        <h2>Des tableaux</h2>
+        <table><!--table>tr*8>td*3{cellule}-->
+            <caption>Les compagnies du monde</caption>
+            <tr><!--tr - table row-->
+                <td>Compagnie</td> <!--td - table data (donnéés)-->
+                <td>Contact</td>
+                <td>Pays</td>
+                <td>Téléphone</td>
+            </tr>
+            <tr>
+                <td>Auchan</td>
+                <td>M<sup>me</sup>Auchan</td>
+                <td>France</td>
+                <td>
+                    <ul>
+                        <li>06 10 56 39 20</li>
+                        
+                    </ul>
+                    </td>
+            </tr>
+            <tr>
+                <td>Carrefour</td>
+                <td>M. Carrefour</td>
+                <td>France</td>
+                <td>
+                    <ul>
+                        <li>07 25 85 24 54</li>
+                        
+                    </ul>
+                    </td>
+            </tr>
+            <tr>
+                <td>LIDL</td>
+                <td>Frau Lidl</td>
+                <td>Allemagne</td>
+                <td>
+                    <ul>
+                        <li>07 65 98 45 25</li>
+                        <li>07 65 98 45 26</li>
+                    </ul>
+                    </td>
+            </tr>
+            <tr>
+                <td>Leclerc</td>
+                <td>M. Le Couennec</td>
+                <td>Bretagne</td>
+                <td>
+                    <ul>
+                        <li>06 98 45 25 14</li>
+                        <li>06 98 45 25 15</li>
+                        <li>06 98 45 25 16</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://picard.fr/" target="_blank" title="Le site de Picard">Picard</a></td>
+                <td>M. Picard</td>
+                <td>France</td>
+                <td>
+                    <ul>
+                        <li>01 48 58 58 48</li>
+                    </ul>   
+                </td>
+            </tr>
+            
+        </table><br><br>
+        <hr>
+        <h2>Un tableau avec fusion des cellules</h2>
+        <table>
+            <!-- tr*2>td*3 -->
+            <tr>
+                <td>Nom</td>
+                <td colspan="2" class="courriel">Courriel</td>
+                <!--colspan - fusion cellule-->
+            </tr>
+            <tr>
+                <td>Père Noël</td>
+                <td><a href="mailto:papanoel@lepolenord.pn">mailto:papanoel@lepolenord.pn</a></td>
+                <td><a href="mailto:santa-claus@noel.fr">mailto:santa-claus@noel.fr</a></td>
+            </tr>
+        </table>
+            <br>
+            <hr>
+            <h2>Un tableau avec fusion de rangées</h2>
+            <table>
+            <tr>
+                <td>Nom</td>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="telephone">Téléphone</td>
+                <td>86 56 59 58 54</td>
+            </tr>
+            <tr>
+                <td>84 54 58 59 56</td>
+            </tr>
+            <tr>
+                <td>84 54 58 59 56</td>
+            </tr>
+        </table>
+        
+      
+
+    </body>
+</html>
