@@ -1,14 +1,19 @@
 body {
     background-color: pink;
 }
+    /*les styles pour la section*/
+#mignon {
+    /* width: 60%; */
+    margin: 0 auto;
+    /*margin 0 et auto sont les déclarations raccourcis pour - 
+https://developer.mozilla.org/fr/docs/Web/CSS/Propri%C3%A9t%C3%A9s_raccourcies - Propriétés raccourcies
+Les propriétés raccourcies sont des propriétés CSS qui permettent de définir la valeur de plusieurs propriétés via un seule déclaration. En manipulant des propriétés raccourcies, un développeur web peut créer des feuilles de style plus concises et plus lisibles, améliorant ainsi la maintenabilité - auto permet de centrer la section à droite et à gauche dans l'élément parent*/
+}
 .jaune {
     background-color: yellow;
 }
 .bleu {
-    background-color: lightskyblue;
-}
-.blanc {
-    background-color: white;
+    background-color: rgb(56, 7, 233);
 }
 .noir {
     background-color: black;
@@ -16,7 +21,14 @@ body {
 .gris {
     background-color: grey;
 }
+/*les styles pour le tableau*/
+table {
+    /* border-collapse: collapse; */
+    border-collapse: collapse;
+    background-color: white;
+}
 td {
     width: 4em;
     height: 4em;
-}
+    /* border: 1px solid black;
+} */
