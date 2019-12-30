@@ -17,16 +17,16 @@ td {
     background-color: #0a080a;
 }
 .brown{
-    background-color: #900C3F;
+    background-color: rgba(78, 23, 23, 0.733);
 }
 .light_brown{
-    background-color: #C70039;
+    background-color: rgb(94, 88, 88);
 }
 .skin{
     background-color: #F4E5B2;
 }
 .pink{
-    background-color: #D6C89C;
+    background-color: rgba(218, 136, 190, 0.877);
 }
 .darker_green{
     background-color: #004B35;
