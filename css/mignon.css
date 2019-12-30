@@ -1,11 +1,13 @@
 body {
     background-color: pink;
+    border: transparent;
 }
 .jaune {
     background-color: yellow;
+    border: transparent;
 }
 .bleu {
-    background-color: lightskyblue;
+    background-color: rgb(46, 12, 238);
 }
 .blanc {
     background-color: white;
@@ -19,4 +21,14 @@ body {
 td {
     width: 4em;
     height: 4em;
+}
+/* tr {
+    display:none;
+} */
+td :first-child {
+    background-color: white;
+}
+tr {
+    border: transparent;
+    /* background-color: white; */
 }
